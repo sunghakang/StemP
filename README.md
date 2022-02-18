@@ -1,6 +1,4 @@
-StemP: an algorithm to predicti RNA secondary structure
-
-Copyright 2022, All Rights Reserved Code by Mengyi Tang, Kumbit Hwang, and Sung Ha Kang For Paper, "StemP: A fast and deterministic Stem-graph approach for RNA and protein folding prediction
+**Copyright 2022, All Rights Reserved Code by Mengyi Tang, Kumbit Hwang, and Sung Ha Kang For Paper, "StemP: A fast and deterministic Stem-graph approach for RNA and protein folding prediction**
 
 
 main.m

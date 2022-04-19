@@ -13,8 +13,6 @@ StemP_test_PDB.m
      -- All the other functions are helper functions.
 
 
-I will keep updating this file.
-
 base_pairing.m
 
      -- A helper function that determintes whether two bases forms canonical base pairs.

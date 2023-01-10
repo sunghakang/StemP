@@ -1,0 +1,13 @@
+sequence_information:
+  seq_type   :  'tRNA'
+  rna        :  'GACCUGUUAGUUUAAUGGUAAAACGGUAGCCUCCAGAGUGAUUGAUACUGGUUCGAUUCCGGUAUAGGUCC'
+
+
+parameters:  
+  l          :  3 # minimum stem length
+  sl1        :  3. # lower bound of stem-loop score
+  sl2        :  5.4 # upper bound of stem-loop score
+  d1         :  12 # minimum distance
+  d2         :  18 # maximum distance
+  p          :  False # if a sequence allow pseudoknots exist
+  w          :  True # if a sequence allow Wobble pairs exist (G-U)

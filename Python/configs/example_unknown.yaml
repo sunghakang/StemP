@@ -1,0 +1,11 @@
+sequence_information:
+  seq_type   :  'unknown'
+  # rna        :  'GGUGAUUGAGUUCACCA'
+  rna        :  'UGCUCCUAGUACGUAAGGACCGGAGUG'
+
+parameters:  
+  l          :  3 # minimum stem length
+  sl1        :  0 # lower bound of stem-loop score
+  sl2        :  100000 # upper bound of stem-loop score
+  p          :  False
+

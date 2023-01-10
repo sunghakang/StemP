@@ -1,0 +1,19 @@
+sequence_information:
+  seq_type   :  'short RNA'
+  # rna        :  'UGCUCCUAGUACGUAAGGACCGGAGUG'
+  rna        :  'UCCGAAGUGCAACGGGAAAAUGCACU'
+  # rna        :  'GGUGAUUGAGUUCACCA'
+  # rna        :  'GGCACCUGACCCCAUGCCGAACUCAGAAGUGCCC'
+  # rna        :  'UGCUCCUAGUACGUAAGGACCGGAGUG'
+  # rna        :  'GGCACCUGACCCCAUGCCGAACUCAGAAGUGCCC'  # 1MIJ
+  # rna        :  'GAGGGAGAGGUGAAGAAUACGACCACCUAGGUACCAUUGCACUCCGGUACCUAAAACAUACCCUC'
+  # rna        :  'GGGCGGCCUUCGGGCUAGACGGUGGGAGAGGCUUCGGCUGGUCCACCCGUGACGCUC'
+  # rna        :  'UAAUCUUUGAAGAUU'
+
+parameters:  
+  l          :  3 # minimum stem length
+  sl1        :  2. # lower bound of stem-loop score
+  sl2        :  20. # upper bound of stem-loop score
+  p          :  False # if a sequence allow pseudoknots exist
+  w          :  False # if a sequence allow Wobble pairs exist (G-U)
+  uu         :  False   # if a sequence allow U-U pairs exsit, you can customize this

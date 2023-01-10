@@ -1,0 +1,103 @@
+sequence_information:
+  seq_type   :  '5S-rRNA-Archaeal'
+  rna        :  'AUGCCGACGGUCAUAGGACGGGGGAAACACCCGGACUCAUUCCGAACCCGGAAGUUAAGCCCCGUUCCGUCCCGCACAGUACUGUGUUCCGAGAGGGCACGGGAACUGCGGGAACCGUCGGCUU'
+
+parameters:  
+  p          :  False # if a sequence allow pseudoknots exist
+  w          :  True # if a sequence allow Wobble pairs exist (G-U)
+
+  vertex_structure:
+    b1 : {
+        'type-1 vertex': [{
+            'sl_min': 17.,
+            'sl_max': 19.,
+            'l_min': 6,
+            'l_max': 6
+        }]
+    }
+
+    b2_1 : {
+        'type-1 vertex': [{
+            'sl_min': 6.,
+            'sl_max': 7.,
+            'l_min': 6,
+            'l_max': 8
+        }],
+        'type-2 vertex': [{
+            'sl_min': 6.,
+            'sl_max': 7.,
+            'l1': 2,
+            'l2': 6,
+            'gap_1': 0,
+            'gap_2': 1
+        }, {
+            'sl_min': 6.,
+            'sl_max': 7.,
+            'l1': 2,
+            'l2': 5,
+            'gap_1': 1,
+            'gap_2': 2
+        }, {
+            'sl_min': 6,
+            'sl_max': 7,
+            'l1': 1,
+            'l2': 6,
+            'gap_1': 1,
+            'gap_2': 2
+        }]
+    }
+
+    b2_2 : {
+        'type-2 vertex': [{
+            'sl_min': 3.,
+            'sl_max': 5.,
+            'l1': 2,
+            'l2': 4,
+            'gap_1': 0,
+            'gap_2': 2
+        }, {
+            'sl_min': 3.,
+            'sl_max': 5.,
+            'l1': 3,
+            'l2': 4,
+            'gap_1': 0,
+            'gap_2': 2
+        }]
+    }
+
+    b3_1 : {
+        'type-1 vertex': [{
+            'sl_min': 6.,
+            'sl_max': 7.,
+            'l_min': 5,
+            'l_max': 7
+        }]
+    }
+
+    b3_2 : {
+        'type-2 vertex': [{
+            'sl_min': 2.,
+            'sl_max': 4.,
+            'l1': 6,
+            'l2': 2,
+            'gap_1': 1,
+            'gap_2': 0
+        }, {
+            'sl_min': 2.,
+            'sl_max': 4.,
+            'l1': 8,
+            'l2': 2,
+            'gap_1': 1,
+            'gap_2': 0
+        }, {
+            'sl_min': 2.,
+            'sl_max': 4.,
+            'l1': 5,
+            'l2': 2,
+            'gap_1': 2,
+            'gap_2': 1
+        }]
+    }
+
+    b2 : {'sl_min': 2., 'sl_max': 4.}
+    b3 : {'sl_min': 2., 'sl_max': 4.}

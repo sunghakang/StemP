@@ -23,12 +23,6 @@ for i = 1 : length(rna)
             else 
                 for k1 = 1:gap1
                     for k2 = 1:gap2 
-%                         starting
-%                         ending
-%                         k1
-%                         k2
-%                         rna(starting+k1)
-%                         rna(ending-k2)
 
                         if  ending-k2>=1 &&...
                             (base_pairing(rna(starting+k1),rna(ending-k2)) ...
@@ -52,7 +46,6 @@ for i = 1 : length(rna)
         if length(addvertex) == total_length * 2
             distance = addvertex(2) - addvertex(1);
           stem_length = length(addvertex)/2;
-%             stem_length = fixlength;
             ratio = distance / stem_length;
             if s_min == 0 && s_max == 0
                 vertex(end+1, 1:4) = {addvertex, stem_length, distance, ratio};

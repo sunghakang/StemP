@@ -1,8 +1,8 @@
 function value = base_pairing(current_point,comparison)
 
 % base_pair
-% input:  current_point and comparison that represents two bases 
-% output: 0/1 whether two input bases are canonical base pairs
+% input:  the index that represents two bases to becompared
+% output: 0/1 whether two input bases are form a base-pair
 
 value = 0;
 if (current_point=='A')&&(comparison=='T'), value = 1; end

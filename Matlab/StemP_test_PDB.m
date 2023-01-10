@@ -1,9 +1,7 @@
 % Predict a secondary structure of PDB
-% vertexmatrix : the cell type of vertex of true folding
-% vertexoutput : the double type of vertex of true folding
-% w : existence of wooble pairing
-% u : existence of U-U pairing
-% pseudoknot: Y/N existance of pseudoknot
+% vertexmatrix : the cell type of vertex in the assumed true folding structure
+% vertexoutput : the double type of vertex in the assumed true folding structure
+% pseudoknot: Y/N existance of pseudoknots
 % w: Y/N existance of wobble pairing G-U
 % uu: Y/N existance of U-U pairing
 clc

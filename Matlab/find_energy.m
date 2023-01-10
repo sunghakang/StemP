@@ -2,10 +2,10 @@ function [energy,answer] = find_energy(cliques,vertex)
 % 
 % Usage
 %   [energy,answer] = find_energy(cliques,vertex)
-% input: maximal_cliques -
-%        vertex - 
-% output: energy - 
-%         answer - 
+% input: maximal_cliques - a list of maximal cliques
+%        vertex - a list of vertex
+% output: energy - a list of energy related to each maximal cliques
+%         answer - the maximal energy
 %
 
 energy = {};

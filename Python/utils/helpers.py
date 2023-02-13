@@ -81,14 +81,14 @@ def filter_based_on_distance_and_open_ended_modification(
         if v.distance > l / 2:
             new_distance = -v.distance + l + 2 * v.stem_length - 2
             new_stem_loop_score = new_distance / v.stem_length
-            if new_stem_loop_score <= 3:
+            if new_stem_loop_score < 3:
                 v.distance = new_distance
                 v.set_stem_loop_score()
                 v.set_index(ct)
                 ct += 1
                 filtered_vertex_set.append(v)
         else:
-            while v.stem_loop_score <= 3:
+            while v.stem_loop_score < 3:
                 v.stem_length -= 1
                 v.set_stem_loop_score()
             if v.distance >= dist_min and v.distance <= dist_max and v.stem_loop_score >= sl_min and v.stem_loop_score <= sl_max:

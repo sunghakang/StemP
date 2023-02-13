@@ -65,13 +65,13 @@ for i = 1 : size(vertex1,1)
         distance = -distance +length(rna)+2*stem_length-2;
         ratio = distance/stem_length;
         a = a(1:2*stem_length);
-        if ratio <=3 
+        if ratio <3 
             vertex(end+1, 1:4) = {a, stem_length, distance, ratio};
         end
         
     else
         
-        while ratio <= 3
+        while ratio < 3
             stem_length = stem_length - 1;
             ratio = distance ./ stem_length;
         end

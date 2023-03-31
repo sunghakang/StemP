@@ -3,14 +3,15 @@
 
 Last update: January, 2023.
 
-This repository provides source code of StemP, a fast algorithm to predict secondary strucutre of an RNA sequences. If you find this useful in your research, please consider cite our [paper](https://arxiv.org/abs/2201.05724):
+This repository provides source code of StemP, a fast algorithm to predict secondary strucutre of an RNA sequences. If you find this useful in your research, please consider cite our [paper](https://ieeexplore.ieee.org/abstract/document/10058976):
 
 ``` 
-@article{tang2022stemp,
-  title={StemP: A fast and deterministic Stem-graph approach for RNA and protein folding prediction},
+@article{tang2023stemp,
+  title={StemP: A fast and deterministic Stem-graph approach for RNA secondary structure prediction},
   author={Tang, Mengyi and Hwang, Kumbit and Kang, Sung Ha},
-  journal={arXiv preprint arXiv:2201.05724},
-  year={2022}
+  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics},
+  year={2023},
+  publisher={IEEE}
 }
 ```
 
